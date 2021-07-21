@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header img{
+      width: 70px;
+      height: 70px;
+      
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+  
+  .about {
+    display: flex;
+    height: 300px;
+    background-image: url(./Images/back.jpg);
+    padding-top: 35px;
+  }
+  
+  .about .content {
+    margin: auto;
+    background-color: rgba(49, 161, 49,0.7);
+    width: 100%;
+  }
+  
+  #offers {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .company img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .team {
+    background-color: rgb(49, 161, 49);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ourteam {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  
+  .ourteam img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+
+  footer{
+      height: 150px;
+      background-color: rgb(49, 161, 49);
+  }
+  input[type='text']{
+      width: 500px;
+      height: 25px;
+      border-radius: 20px;
+      border: none;
+      padding-left: 20px;
+  }
+  
